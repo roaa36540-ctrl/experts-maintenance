@@ -233,7 +233,7 @@ export default function Home() {
       <section className="relative w-full overflow-hidden bg-gray-900" style={{ height: 'clamp(280px, 60vw, 680px)' }}>
         {/* Hero Image - Modern */}
         <img
-          src="/hero_modern.jpg"
+          src="/hero_new.jpg"
           alt="مركز الخبراء للصيانة - خبراء متخصصون في إصلاح الأجهزة المنزلية"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ objectPosition: 'center center' }}
@@ -305,9 +305,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/services_overview.jpg"
+              src="/hero_section.jpg"
               alt="خبير صيانة محترف من مركز الخبراء للصيانة"
-              className="w-full h-72 md:h-96 object-cover"
+              className="w-full h-72 md:h-96 object-cover object-center"
             />
           </div>
         </div>
@@ -651,7 +651,7 @@ export default function Home() {
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
               <div className="flex justify-center mb-4">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663390656223/wZuNWbeirkagEHKt.jpg?Expires=1803857132&Signature=TrsjMwoiDt9AJMNAb68OC-PafZh69en8VJO7MnnGzsz0ZU39o00xRkEqRxpmvA3tv7NakaKCZi68qh0WDkVmbsEZYAPf7zmO~8iNsJvlNGpgSOg3f6tPTmBmGevzGxvL9Clv7NquZMAiWOc2IRNe~L5Qo627Q6eFlcXsqd8rQHwZGk2bIR2A3HPamMgNMQhp0b-C-HNgkEwc5lxfG8HtDdidomUK-0HrR6uRo2e3bXynf11KugEu~DFfGiOvQB6sGYcCyZ7efmW-RZz4XJLWw2sQDMeWxj70T5f~sxDpDQ0oB05Pau8HlIve2iYN5eu03TC7jvjie77guptkewnIqA__&Key-Pair-Id=K2HSFNDJXOU9YS"
+                  src="/customer_samia.jpg"
                   alt="سامية حسن"
                   className="w-20 h-20 rounded-full object-cover border-4 border-blue-200"
                 />
@@ -670,7 +670,7 @@ export default function Home() {
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
               <div className="flex justify-center mb-4">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663390656223/AvoKEDaqYdGfLUDV.jpg?Expires=1803857132&Signature=J6RC5g26Z4oPvJLlGP7VInUS3C5h9GWqUczS1qSO5u8DEn-muIneZ8skaJHc8JsCQF8T5So3MFW~eNLGFmJ54GuIwVjtIm6~qJ3SX08tPkkc37sPjUcRQhGJpjCyRGe7X0SDd~jrR5AcctkO-zcJdJ~uJe3tiMGjOS-ASXsSHkCuB-3KzgPQStgr69UGtbdlj0MX7XHzUz1UZ-OW7Q~CECg-WMLDFjSdMB4wVAGOZMhuQlefjgLhMNEKaa3TtvchqybDFkHAcOD3AtkIG7WpElllaTCmNdR~WnLMZ8SqM4cOXjRm15iYHdVC5fhGgDs1rq45-bTh~~DBdD3fh07uWA__&Key-Pair-Id=K2HSFNDJXOU9YS"
+                  src="/customer_karim.jpg"
                   alt="كريم مصطفى"
                   className="w-20 h-20 rounded-full object-cover border-4 border-blue-200"
                 />
@@ -689,7 +689,7 @@ export default function Home() {
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
               <div className="flex justify-center mb-4">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663390656223/fXgWPScESQTmeIcg.jpg?Expires=1803857132&Signature=NtGU3UoYdXxk9L9URYHsyvC8JN5AnXNEWATyj1SHEt-5dUu77BX9m3iOIfzoOzrIad6l-TcEL0a7lqSR-BtBlX5lEygMO0wFG953WgIEfT7x0bK1KLQ5QwiVZL375SDCx96HmsjVENyVz7GueaTOX6zYZSGBraq~4zMVZmj-I7H1SuE7NcRI6DE0Us-ESe0Qvar-8TdXU7k-fXiVp0729Sa4iOLI-tzNE1xC42rzabBIbWuRtlrxoGjr6hFZpcUHcOZiB-enRLhij~mnraK8BC4fiPONYbzKntJppgxlqDGcB~BZWWxCGAWuuIu-qS5inmEtkr5fsnHIr1QuySsSQg__&Key-Pair-Id=K2HSFNDJXOU9YS"
+                  src="/customer_dina.jpg"
                   alt="دينا سمير"
                   className="w-20 h-20 rounded-full object-cover border-4 border-blue-200"
                 />
@@ -708,7 +708,7 @@ export default function Home() {
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
               <div className="flex justify-center mb-4">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663390656223/IMAgLjyRzVhVAOEP.jpg?Expires=1803857132&Signature=ZRcJ0cypi4onw2kGZ7oQYgjD3ZxvzhHJJKnsc~ZvdFLS0yRQCFih05ijodgVPusQcMLuEMOBUx9aRql9FSFU4JOs0gvmSRZTI-lJqGRwaqVJ0pPrZOaNj2XRa3eM0DfWyaY-tJ6VGeqvclYslTl8K60Wzp204DB484DYFezAh3KIY8oDWRuqmOLfRmWHyPuqHakCxuqT8aqrHO3O20Eob54KBbvVlnz0JTlypXlD-l1pLB4KrgQVrujKBMCz6xg0hJBi05R6wOP5qAegFf4fpuuwTl0IS0xdsCc-Z4cyDoZkWrUefZJB7LjVgLy5UrcCFDD8IzeUoc7Gt-neMvXdVA__&Key-Pair-Id=K2HSFNDJXOU9YS"
+                  src="/customer_hassan.jpg"
                   alt="حسن رمضان"
                   className="w-20 h-20 rounded-full object-cover border-4 border-blue-200"
                 />
@@ -727,7 +727,7 @@ export default function Home() {
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
               <div className="flex justify-center mb-4">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663390656223/VwdhNnlHUXSzfJMn.jpg?Expires=1803857132&Signature=bOK8FGkZvv7yMWQFG7N086M3cOKBOcaUED3kwnMApkpbC8lQhgrDmAzzHigFI4JVxzV5ooZU~~XeguvL3xzc0T~Jm6B6PG2ucK4N8yvbTmhL7~gRjKRFbxL8JqtiBK09wevGP0JTlTlGiZc--xB3awX3iQE98pBEUdlNrusMGKwXFiDRwSNqJFaQS9f9KqWsLZIlPZfukT3pqnnzJ9mEr-BJUzRgV3qZQF5ZnbCtamn1FsK1Fb96rzx3YivSDoDw9LmE~nyFc8iJNaJPH0qIP9IRGuqrawKp~0T5C6g69XlELdAJaRuMyIHDWH32zuBeFSlAeFp~vNWjVEvcBWv6qg__&Key-Pair-Id=K2HSFNDJXOU9YS"
+                  src="/customer_rania.jpg"
                   alt="رانيا عادل"
                   className="w-20 h-20 rounded-full object-cover border-4 border-blue-200"
                 />
@@ -746,7 +746,7 @@ export default function Home() {
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
               <div className="flex justify-center mb-4">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663390656223/IUuhcKOJRVUSGaWG.jpg?Expires=1803857132&Signature=a40IJNak9tjx-ka9-yQTLftX7z8ZN1HzPGRfupXRELJMICuwaT8HzJDJY36aT3PMrxweTo7i5Vbcl4pklcSnYNdVvsb4nVq25pJ~SMnsfS5lzWrdiyVSj7rFgueHshsobjdkFv-49fz5zwhWG6oIGEH~8ZNaYb8~DXibVMxGX1FTxdoJWO4-6AbDWkDSkM5Tst-EgDNPr9G5G9irM3jwxvabsDid5cCH1aWPBSx0ZVDyy4iyC6VExsE~rP2nmxzoRpe0qjOEpgnL84j7ptq~avYrzgln~ahL-NGSLj0Ci-6fLhG~p0KcUEWp30NEZ6DV~tQXf-FP54SAm6zoiXSNSQ__&Key-Pair-Id=K2HSFNDJXOU9YS"
+                  src="/customer_tarek.jpg"
                   alt="طارق نبيل"
                   className="w-20 h-20 rounded-full object-cover border-4 border-blue-200"
                 />
