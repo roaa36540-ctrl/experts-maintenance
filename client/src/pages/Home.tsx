@@ -191,9 +191,9 @@ export default function Home() {
         {/* Bottom Section: Contact CTA */}
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 border-t border-gray-200">
           <div className="container mx-auto px-4 py-2 md:py-3">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6">
+            <div className="flex flex-row items-center justify-center gap-2 md:gap-6 overflow-x-auto">
               {/* Hotline */}
-              <a href="tel:15912" className="group flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 rounded-lg hover:bg-red-100 transition-colors w-full md:w-auto justify-center">
+              <a href="tel:15912" className="group flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 rounded-lg hover:bg-red-100 transition-colors flex-shrink-0 md:w-auto justify-center">
                 <div className="bg-red-500 text-white p-1.5 md:p-2.5 rounded-full group-hover:scale-110 transition-transform flex-shrink-0">
                   <Phone size={16} />
                 </div>
@@ -204,7 +204,7 @@ export default function Home() {
               </a>
 
               {/* Mobile */}
-              <a href="tel:01157680948" className="group flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 rounded-lg hover:bg-blue-200 transition-colors w-full md:w-auto justify-center">
+              <a href="tel:01157680948" className="group flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 rounded-lg hover:bg-blue-200 transition-colors flex-shrink-0 md:w-auto justify-center">
                 <div className="bg-blue-600 text-white p-1.5 md:p-2.5 rounded-full group-hover:scale-110 transition-transform flex-shrink-0">
                   <Phone size={16} />
                 </div>
@@ -215,7 +215,7 @@ export default function Home() {
               </a>
 
               {/* WhatsApp */}
-              <a href="https://wa.me/201157680948" className="group flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 rounded-lg hover:bg-green-100 transition-colors w-full md:w-auto justify-center">
+              <a href="https://wa.me/201157680948" className="group flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 rounded-lg hover:bg-green-100 transition-colors flex-shrink-0 md:w-auto justify-center">
                 <div className="bg-green-500 text-white p-1.5 md:p-2.5 rounded-full group-hover:scale-110 transition-transform flex-shrink-0">
                   <MessageCircle size={16} />
                 </div>
